@@ -1,0 +1,15 @@
+    1  git clone https://github.com/LiljanaRa/homework_12.git
+    2  cd homework_12
+    3  git checkout -b feature
+    4  touch README.md
+    5  echo "Homework" > README.md
+    6  touch .gitignore
+    7  echo "test" > .gitignore
+    8  git add .
+    9  git status
+   10  git commit -m "Added files"
+   11  git push -u origin feature
+   12  git commit --amend
+   13  git checkout main
+   14  git merge feature main
+   15  history > history.txt
